@@ -1,18 +1,12 @@
 /* styles.css */
-body {
-    background-color: #f9f9f9;
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-.game-container {
-    margin-top: 100px;
-}
+/* ... (existing styles) ... */
 
 #cookie {
     cursor: pointer;
+    width: 100px; /* Adjust the size as desired */
 }
 
-#cookie-counter {
-    font-size: 18px;
+#buy-upgrade,
+#buy-auto-clicker {
+    margin-top: 10px;
 }
