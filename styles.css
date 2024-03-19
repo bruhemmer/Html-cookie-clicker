@@ -1,12 +1,39 @@
 /* styles.css */
-/* ... (existing styles) ... */
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.game-container {
+    margin-top: 100px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 
 #cookie {
     cursor: pointer;
     width: 100px; /* Adjust the size as desired */
+    transition: transform 0.2s ease;
 }
 
-#buy-upgrade,
-#buy-auto-clicker {
+#cookie:hover {
+    transform: scale(1.1);
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
     margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
 }
